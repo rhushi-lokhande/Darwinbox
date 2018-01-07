@@ -1,0 +1,38 @@
+.gameContainer {
+    height: 260px;
+    width: 260px;
+    background-color: azure;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.gameContainer div {
+    display: inline-block;
+    width: 73px;
+    height: 73px;
+    margin: 5px;
+    border: solid 1px #3b3b3b;
+    cursor: pointer;
+}
+
+.gameContainer div>span {
+    float: left;
+    padding: 11px 23px;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.incompleteGames,
+.current-user {
+    border: 1px solid #b3b3b3;
+    padding: 6px 13px;
+    margin-bottom: 5px;
+    cursor: pointer;
+}
+
+.win {
+    border: 1px solid #b3b3b3;
+    padding: 6px 13px;
+    margin-bottom: 5px;
+    background-color: green;
+}
